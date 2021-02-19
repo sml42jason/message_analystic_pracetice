@@ -8,3 +8,9 @@ with open ('reviews.txt', 'r') as f:
             print(len(data))
 print('Reading finish, total : ', len(data))
 
+sum_len = 0
+for a in data:
+    sum_len = sum_len + len(a)
+
+print('avg is ', sum_len/len(a), '.')
+
