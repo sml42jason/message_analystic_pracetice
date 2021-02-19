@@ -14,3 +14,8 @@ for a in data:
 
 print('avg is ', sum_len/len(a), '.')
 
+new = []
+for m in data:
+    if len(m) < 100:
+        new.append(m)
+print(len(new), 'message < 100')
