@@ -19,3 +19,9 @@ for m in data:
     if len(m) < 100:
         new.append(m)
 print(len(new), 'message < 100')
+
+good = []
+for g in data:
+    if 'good' in g:
+        good.append(g)
+print('including good in message, ', len(good))
